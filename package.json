@@ -5,8 +5,9 @@
   },
   "dependencies": {
     "@apollo/client": "^3.2.5",
+    "@graphql-tools/links": "7.0.2",
     "bufferutil": "^4.0.1",
-    "graphql-tools": "7.0.1",
+    "graphql-tools": "7.0.2",
     "utf-8-validate": "^5.0.2",
     "ws": "^7.3.1"
   },
