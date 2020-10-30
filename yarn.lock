@@ -502,7 +502,7 @@
     fs-extra "9.0.1"
     tslib "~2.0.1"
 
-"@graphql-tools/delegate@^7.0.0", "@graphql-tools/delegate@^7.0.1":
+"@graphql-tools/delegate@7.0.1", "@graphql-tools/delegate@^7.0.0", "@graphql-tools/delegate@^7.0.1":
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-7.0.1.tgz#dd8651394b10b826f3a7f61cf1722d201a986e46"
   integrity sha512-XawfIGq2Q7dw8X2F3slLaNmCr79sQ0mg3SALd2oysaC18uAuaRcYA/0plcIR0O2dQDamI+NfvEy1I6TNZ/czLg==
@@ -575,11 +575,12 @@
     fs-extra "9.0.1"
     tslib "~2.0.1"
 
-"@graphql-tools/links@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/links/-/links-7.0.0.tgz#9ce31faf158c05c0c12ada1a1f1298bf0dc8323b"
-  integrity sha512-TvEdQdg7nVTDAff8irXutiLACIkQdAhH+3sC3K6IM8j5Zu0zW0xsVYFoG3At5Ggeo5Cvkkx0ssyJCR3Ul9HBrA==
+"@graphql-tools/links@7.0.2-alpha-3a11390e.0":
+  version "7.0.2-alpha-3a11390e.0"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/links/-/links-7.0.2-alpha-3a11390e.0.tgz#e613cb1bce3098801dc0f9a11d984152fca326e4"
+  integrity sha512-kIoZL9V7Fbs2IqVuqxc7XQJvIBKwVkSmS3cpe5w7ilH5Mixvkc6B2vu1EP5qqnJzq42kNuKe1tfmha9PCLoQGw==
   dependencies:
+    "@graphql-tools/delegate" "7.0.1"
     "@graphql-tools/utils" "7.0.1"
     apollo-upload-client "14.1.2"
     cross-fetch "3.0.6"
@@ -1301,10 +1302,10 @@ graphql-tag@^2.11.0:
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.11.0.tgz#1deb53a01c46a7eb401d6cb59dec86fa1cccbffd"
   integrity sha512-VmsD5pJqWJnQZMUeRwrDhfgoyqcfwEkvtpANqcoUG8/tOLkwNgU9mzub/Mc78OJMhHjx7gfAMTxzdG43VGg3bA==
 
-graphql-tools@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-7.0.1.tgz#30d20cb080c55b4d35f37c92f28f72d006bc5bd9"
-  integrity sha512-JraaBDiJgI/Ax9Oo7Bikl87828ezJ3lrIvMAYP8BZ9h0fAkmPf9DkhPPPKCMxwFIAShe7hfYZTW6Pw7vJMzmUQ==
+graphql-tools@7.0.2-alpha-3a11390e.0:
+  version "7.0.2-alpha-3a11390e.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-7.0.2-alpha-3a11390e.0.tgz#a8256c1b2cd3ab2580a53c15e241f89bd2711725"
+  integrity sha512-9ZAG2KyMlpMcPsxwGocIh6XG5MWRvqxgkkgPty5gglE7MRobBNeUvfOy33HxVrdLx9LuTgDGvdYccseAuUL57w==
   dependencies:
     "@graphql-tools/batch-delegate" "^7.0.0"
     "@graphql-tools/batch-execute" "^7.0.0"
@@ -1316,7 +1317,7 @@ graphql-tools@7.0.1:
     "@graphql-tools/graphql-tag-pluck" "^6.2.6"
     "@graphql-tools/import" "^6.2.4"
     "@graphql-tools/json-file-loader" "^6.2.5"
-    "@graphql-tools/links" "^7.0.0"
+    "@graphql-tools/links" "7.0.2-alpha-3a11390e.0"
     "@graphql-tools/load" "^6.2.5"
     "@graphql-tools/load-files" "^6.2.4"
     "@graphql-tools/merge" "^6.2.5"

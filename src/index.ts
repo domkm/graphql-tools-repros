@@ -1,5 +1,5 @@
 import { introspectSchema, wrapSchema } from "@graphql-tools/wrap";
-import { linkToExecutor, linkToSubscriber } from "@graphql-tools/links";
+import { linkToExecutor, linkToSubscriber, AsyncExecutor } from "graphql-tools";
 import { SubscriptionClient } from "subscriptions-transport-ws";
 import ws from "ws";
 import { WebSocketLink } from "@apollo/client/link/ws";
@@ -23,7 +23,7 @@ const subscriber = linkToSubscriber(wsLink);
 
 const makeSchema = async () => {
   const beaconSchema = await wrapSchema({
-    schema: await introspectSchema(executor),
+    schema: await introspectSchema(executor as AsyncExecutor),
     executor,
     subscriber,
   });
