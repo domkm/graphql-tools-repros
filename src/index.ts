@@ -1,5 +1,3 @@
-import { introspectSchema, wrapSchema } from "@graphql-tools/wrap";
-import { linkToExecutor, linkToSubscriber } from "@graphql-tools/links";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { stitchSchemas } from "@graphql-tools/stitch";
 import * as gql from "graphql";
